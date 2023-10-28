@@ -23,6 +23,7 @@ public class AscendingSublists {
                 result.add(sublist); // Add the completed sublist to the result list
                 sublist = new ArrayList<>(); // Start a new sublist with the current element
                 sublist.add(inputList.get(i));
+                System.out.print("ss");
             }
         }
 
